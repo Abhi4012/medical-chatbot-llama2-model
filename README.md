@@ -3,7 +3,7 @@
 
 
 
-# some steps for using this project 
+## some steps for using this project 
 ## create an enviroment
 `conda create -n chatbot python=3.8 -y`
 
@@ -24,3 +24,7 @@ model name:
 `llama-2-7b-chat.ggmlv3.q4_0.bin`
 model link:
 https://huggingface.co/TheBloke/Llama-2-7B-Chat-GGML/tree/main
+
+
+## Run 
+`python app.py`
