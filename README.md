@@ -1,6 +1,9 @@
 # medical-chatbot-llama2-model
 
 
+
+
+# some steps for using this project 
 ## create an enviroment
 `conda create -n chatbot python=3.8 -y`
 
@@ -8,7 +11,7 @@
 `conda activate chatbot`
 
 ## Install requirements
-`pip install -r requirements`
+`pip install -r requirements.txt`
 
 
 ## create .env for keep your secret api key
