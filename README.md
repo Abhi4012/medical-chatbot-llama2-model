@@ -4,7 +4,7 @@
 `link:` https://github.com/Abhi4012/medical-chatbot-llama2-model.git
 
 
-## some steps for using this project 
+## some steps for using this project and run in locaL systems
 ## create an enviroment
 `conda create -n chatbot python=3.8 -y`
 
