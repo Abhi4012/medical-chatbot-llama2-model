@@ -1,6 +1,7 @@
 # medical-chatbot-llama2-model
 
-
+## Clone repo
+`link:` https://github.com/Abhi4012/medical-chatbot-llama2-model.git
 
 
 ## some steps for using this project 
