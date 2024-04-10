@@ -11,7 +11,8 @@
 `pip install -r requirements`
 
 
-## create .env for keep secret api key
+## create .env for keep your secret api key
+pinecone link for creating api key and environment: https://www.pinecone.io/
 `PINECONE_API_KEY = "put your pinecone api key here"`
 `PINECONE_API_ENV = "put your pinecone api enviroment key here"`
 
