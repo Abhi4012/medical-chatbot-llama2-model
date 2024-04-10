@@ -3,6 +3,8 @@
 ## Clone repo
 `link:` https://github.com/Abhi4012/medical-chatbot-llama2-model.git
 
+```git clone https://github.com/Abhi4012/medical-chatbot-llama2-model.git``` clone this repository using `git bash` or `command prompt` in you local system.
+
 
 ## some steps for using this project and run in locaL systems
 ## create an enviroment
