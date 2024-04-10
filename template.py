@@ -10,7 +10,6 @@ list_of_files = [
     "src/helper.py",
     "src/prompt.py",
     "setup.py",
-    "experiment/experiments.ipynb",
     "app.py",
     "store_index.py",
     "static/.gitkeep",

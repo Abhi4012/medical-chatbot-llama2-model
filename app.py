@@ -1,27 +1,14 @@
 from flask import Flask, render_template, jsonify, request
 from src.helper import download_embedding
-from langchain.vectorstores import Pinecone
+from langchain_community.vectorstores import Pinecone
 import pinecone
 from langchain.prompts import PromptTemplate
-from langchain.llms import CTransformers
+from langchain_community.llms import CTransformers
 from langchain.chains import RetrievalQA
 from dotenv import load_dotenv
 from langchain_pinecone import PineconeVectorStore
 from src.prompt import *
 import os
-from flask import Flask, render_template, jsonify, request
-from src.helper import download_embedding
-from langchain.vectorstores import Pinecone
-import pinecone
-from langchain.prompts import PromptTemplate
-from langchain.llms import CTransformers
-from langchain.chains import RetrievalQA
-from dotenv import load_dotenv
-from src.prompt import *
-import os
-from src.helper import text_split
-from src.helper import load_pdf
-
 
 app = Flask(__name__)
 
@@ -58,7 +45,7 @@ qa=RetrievalQA.from_chain_type(
 
 @app.route("/")
 def index():
-    return render_template("index.html")
+    return render_template("chat.html")
 
 
 @app.route("/get", methods=["GET", "POST"])
